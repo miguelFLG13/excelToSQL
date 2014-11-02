@@ -13,7 +13,7 @@ import xlrd
 import unicodedata
 
 if sys.argv[1] == "help":
-    print("Usage:\n\texcelToSQL.py excel_file.xls name_of_page name_of_table")
+    print("Usage:\n\texcelToSQL.py excel_file.xls name_of_excel_page name_of_sql_table")
     sys.exit(1)
 
 if not os.path.exists(sys.argv[1]):
